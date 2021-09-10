@@ -2,10 +2,15 @@
   background-color: var(--theme) !important;
   color: white !important;
   font-weight: 800 !important;
+  font-family: inherit !important;
   font-size: 1.3rem !important;
   text-transform: inherit !important;
   border: none !important;
-  margin-top: 10px;
-  border-radius: 30px;
-  height: 50px;
+  margin-top: 10px !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+}
+.buzzIcon {
+  margin: 20px 5px 0px;
+  color: var(--highlight);
 }

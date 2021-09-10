@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import FlashOnIcon from "@material-ui/icons/FlashOn";
+import Buzz from "@material-ui/icons/FlashOn";
 import SidebarOption from "./SidebarOption";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
@@ -8,8 +8,8 @@ import { Button } from "@material-ui/core";
 
 export default function Sidebar() {
   return (
-    <div>
-      <FlashOnIcon />
+    <div className="sidebar">
+      <Buzz className="buzzIcon" />
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={SearchIcon} text="Search" />
       <SidebarOption Icon={NotificationsIcon} text="Notifications" />
