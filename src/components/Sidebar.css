@@ -1,0 +1,11 @@
+.sidebarBuzz {
+  background-color: var(--theme) !important;
+  color: white !important;
+  font-weight: 800 !important;
+  font-size: 1.3rem !important;
+  text-transform: inherit !important;
+  border: none !important;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 50px;
+}
